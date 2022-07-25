@@ -31,6 +31,10 @@ img {
   border-radius: 50% 50% 50% 50%;
   margin-bottom: 3%;
 }
+img:hover {
+  transform: scale(1.1) rotate(-20deg);
+  transition: 0.2s;
+}
 
 h1 {
   background-color: rgba(205, 248, 194, 0.75);
@@ -106,4 +110,16 @@ input {
 
 .mainField {
   background-color: rgba(205, 248, 194, 0.9);
+}
+
+.wrong {
+  outline: solid red 2px;
+}
+
+.right {
+  outline: solid green 2px;
+}
+
+a {
+  color: brown;
 }/*# sourceMappingURL=styles.css.map */
